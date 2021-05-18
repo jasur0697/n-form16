@@ -1,0 +1,256 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url("../Fonts/Raleway-Black.woff2") format('woff2'),
+        url('../Fonts/Raleway-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url("../Fonts/Raleway-Light.woff2") format('woff2'),
+        url('../Fonts/Raleway-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../Fonts/Raleway-Medium.woff2') format('woff2'),
+        url('../Fonts/Raleway-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../Fonts/Raleway-Regular.woff2') format('woff2'),
+        url('../Fonts/Raleway-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    background-color: #F2F2F2;;
+    font-family: 'Raleway', Arial, sans-serif;
+}
+.container {
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 70px auto;
+    background-color: white;
+    border-radius: 21.25px 0px 0px 21.25px;
+}
+
+.content {
+    width: 720px;
+    display:flex;
+}
+
+
+.left-side {
+    display: flex;    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 440px;
+    background: #FFD500;
+    border-radius: 21.25px 0px 0px 21.25px;
+    margin-right: 50px;
+    margin-left: 0;
+}
+
+.img-header {
+    font-family: 'Raleway', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    width: 170px ;
+    margin-bottom: 10px;
+    color: #383838;
+}
+
+.background-img {
+    background-image: url('../img/girl-logo.svg');
+    width: 120px;
+    height: 120px;
+    background-repeat: no-repeat;
+    margin: 50px;
+}
+
+.img-paragraph {
+    text-align: center;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #383838;
+    width: 175.84px;
+    height: 27.62px;
+    margin-top: 0;
+}
+
+.img-paragraph {
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.img-button::after {
+    display: block;
+    content: url(../img/icon-left.svg);
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+
+.rigth-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.right-titles {
+    margin-right: 28px;
+    width: 50px;
+    line-height: 19px;
+    font-size: 10px;
+}
+
+.form {
+    width:320px;  
+    height: 380px;
+}
+
+.input-box {
+    width: 200px;
+    padding: 8px;
+    font-size: 1px;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 9px;
+    display: flex;
+    align-items: flex-end;
+    color: #373D40;
+    background-color: rgba(245, 248, 249, 0.924);
+    border: 0.586985px solid #CAD7DD;
+    border-radius: 2.64604px;   
+}
+
+.input-box:active {
+    background-color: rgba(245, 248, 249, 0.324);
+
+}
+
+.birth-date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gender-checkbox {
+    display: flex;
+    flex-direction: row;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 11px;
+}
+.gender-checkbox {
+    font-family: 'Raleway', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 9px;
+}
+
+.signs {
+    display: flex;
+    align-items: center ;
+}
+.genderbox {
+    margin-right: 10px;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: var(--color-primary);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+
+
+.men {
+    background-image: url(../img/men.png);
+}
+
+.women {
+    background-image: url(../img/women.png);
+}
+
+
+.form-buttons{
+    display: flex;
+    justify-content: center;
+    
+}
+.form-btn {
+    width: 79.35px;
+    height: 26.48px;
+    background: #F5F8F9;
+    border-radius: 2.64604px;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 9px;
+    border: none;
+    cursor: pointer;
+    color: #373D40;
+    margin-top: 21px;
+
+}
+
+
+.membership-checkboxes{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.mem-radios {
+    margin-left: 7px;
+    margin-right: 8px;
+}
+
+
+.btn-cancel {
+    margin-right: 11px;
+}
+
+.btn-save {
+    background-color: #60E6C5;
+    color: white;
+}
